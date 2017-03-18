@@ -1,0 +1,13 @@
+{
+    'Students': {
+        'group-policy':{
+            'ports-enabled':['80','443'],
+            'dns-blacklist':['www.naver.com', 'www.youtube.com', 'www.youku.com']
+            'ip-blacklist':['123.234.12.123', '111.111.111.111'],
+        }
+        'individual-policy':{
+            'max-download':'100K',
+            'max-upload':'100K',
+            'max-data-usage':'800M'
+        }
+}
